@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cv.html">CV</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+		</ul>
+	</nav>
+	<h1>CONTACT ME</h1>
+	<form id="contactform" action="" method=""> </form>
+	<table>
+		<tr>
+			<td>Name</td>
+			<td>
+				<input type="text" name="username" id="username" placeholder="Enter Your Name">
+			</td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>
+				<input type="password" name="pass" id="pass" placeholder="Enter A Password">
+			</td>
+		</tr>
+		<tr>
+			<td>Class Day</td>
+			<td>
+				<input type="checkbox" name="classday" value="m"/> M
+				<input type="checkbox" name="classday" value="t"/> T
+				<input type="checkbox" name="classday" value="w"/> W
+				<input type="checkbox" name="classday" value="th"/> Th
+				<input type="checkbox" name="classday" value="f"/> F
+			</td>
+		</tr>
+		<tr>
+			<td>Birth Month</td>
+			<td>
+				<select name="birthmonth">
+					<option value="Jan">Jan</option>
+					<option value="Feb">Feb</option>
+					<option value="Mar">Mar</option>
+					<option value="Apr">Apr</option>
+					<option value="May">May</option>
+					<option value="Jun">Jun</option>
+					<option value="Jul">Jul</option>
+					<option value="Aug">Aug</option>
+					<option value="Sept">Sept</option>
+					<option value="Oct">Oct</option>
+					<option value="Nov">Nov</option>
+					<option value="Dec">Dec</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				<input type="radio" name="gender" value="male"> Male
+				<input type="radio" name="gender" value="female"> Male
+			</td>
+		</tr>
+		<tr>
+			<td>Message</td>
+			<td>
+				<textarea name="usermessage"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="submit"/>
+				<input type="reset" value="reset"/>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
